@@ -8,7 +8,10 @@
       <!-- LEFT PANEL -->
       <div class="col-md-5">
         <div class="auth-left">
-          <div class="brand"><i class="bi bi-heart-fill"></i> FoodSaver</div>
+   <div class="brand">
+    <img src="Images/logo-public.png" alt="FoodSaver" />
+    <span>FoodSaver</span>
+</div>
           <h2>Welcome Back!</h2>
           <p>Glad to see you again. Please login to continue.</p>
           <img src="Images/grocery.png" alt="" />

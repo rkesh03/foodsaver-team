@@ -295,3 +295,89 @@ a {
     margin-bottom: 26px;
     line-height: 1.6;
 }
+/* Fix logo image alignment */
+.navbar-brand,
+.sidebar-brand {
+    display: inline-flex;
+    align-items: center;
+}
+
+    .navbar-brand img,
+    .sidebar-brand img {
+        display: block;
+        vertical-align: middle;
+        transform: translateY(-1px); /* nudge up 1px to sit level with text */
+    }
+/* ============================================
+   LOGO ALIGNMENT FIX
+   ============================================ */
+
+/* Navbar brand: flex, centered vertically, image + text as flex items */
+.navbar-brand {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px;
+    padding: 0;
+    height: 48px; /* fixed height so children center within it */
+}
+
+    .navbar-brand img {
+        display: block !important;
+        height: 34px;
+        width: auto;
+        object-fit: contain;
+        margin: 0;
+    }
+
+    .navbar-brand span {
+        line-height: 1;
+        font-weight: 700;
+        color: var(--fs-green);
+        display: inline-block;
+    }
+
+/* Sidebar brand: same treatment */
+.sidebar-brand {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px;
+    padding: 4px 8px 20px;
+    height: auto;
+}
+
+    .sidebar-brand img {
+        display: block !important;
+        height: 30px;
+        width: auto;
+        object-fit: contain;
+        margin: 0;
+        flex-shrink: 0;
+    }
+
+    .sidebar-brand span {
+        line-height: 1;
+        font-weight: 700;
+        color: var(--fs-green);
+    }
+
+/* Auth page brand (Login / SignUp) */
+.auth-left .brand {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px;
+    line-height: 1;
+}
+
+    .auth-left .brand img {
+        display: block !important;
+        height: 30px;
+        width: auto;
+        object-fit: contain;
+        margin: 0;
+    }
+
+    .auth-left .brand span {
+        line-height: 1;
+        font-weight: 700;
+        color: var(--fs-green);
+    }

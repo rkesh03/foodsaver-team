@@ -19,11 +19,10 @@
 
 <div class="db-layout">
     <aside class="sidebar">
-        <a class="sidebar-brand" href="Default.aspx">
-            <i class="bi bi-heart-fill"></i>
-            <span>FoodSaver</span>
-        </a>
-
+    <a class="sidebar-brand" href="Default.aspx">
+             <img src="Images/logo-dashboard.png" alt="FoodSaver" style="height:30px;" />
+               <span>FoodSaver</span>
+            </a>
         <ul class="sidebar-nav">
             <li><a href="Dashboard.aspx" id="navDash" runat="server"><i class="bi bi-grid"></i> Dashboard</a></li>
 

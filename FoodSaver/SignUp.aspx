@@ -7,8 +7,11 @@
 
       <div class="col-md-5">
         <div class="auth-left">
-          <div class="brand"><i class="bi bi-heart-fill"></i> FoodSaver</div>
-          <h2>Let's get started!</h2>
+<div class="brand">
+    <img src="Images/logo-public.png" alt="FoodSaver" />
+    <span>FoodSaver</span>
+</div>
+            <h2>Let's get started!</h2>
           <p>Create an account to donate or request food.</p>
           <img src="Images/grocery.png" alt="" />
         </div>

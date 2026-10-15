@@ -135,7 +135,10 @@
     <Content Include="ForgotPassword.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HowItWorks.aspx" />
+    <Content Include="Images\forgot-panel.png" />
     <Content Include="Images\grocery.png" />
+    <Content Include="Images\logo-dashboard.png" />
+    <Content Include="Images\logo-public.png" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="ManageDonations.aspx" />
